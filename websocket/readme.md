@@ -56,7 +56,7 @@ http {
     }
  
     upstream websocket {
-        server 192.168.2.111:8080;
+        server <nodejs server ip>:8080;
     }
  
     server {
